@@ -116,10 +116,10 @@ class SimpleDNN:
         return np.mean(preds == y)
 
 # Đọc và xử lý dữ liệu MNIST
-train_images = idx2numpy.convert_from_file('./data/MNIST/raw/train-images-idx3-ubyte')
-train_labels = idx2numpy.convert_from_file('./data/MNIST/raw/train-labels-idx1-ubyte')
-test_images = idx2numpy.convert_from_file('./data/MNIST/raw/t10k-images-idx3-ubyte')
-test_labels = idx2numpy.convert_from_file('./data/MNIST/raw/t10k-labels-idx1-ubyte')
+train_images = idx2numpy.convert_from_file('./Week1/data/MNIST/raw/train-images-idx3-ubyte')
+train_labels = idx2numpy.convert_from_file('./Week1/data/MNIST/raw/train-labels-idx1-ubyte')
+test_images = idx2numpy.convert_from_file('./Week1/data/MNIST/raw/t10k-images-idx3-ubyte')
+test_labels = idx2numpy.convert_from_file('./Week1/data/MNIST/raw/t10k-labels-idx1-ubyte')
 
 X_train = train_images.reshape(-1, 28*28) / 255.0
 X_test = test_images.reshape(-1, 28*28) / 255.0
