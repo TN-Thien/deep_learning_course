@@ -1,0 +1,53 @@
+{
+    "os": "Windows-10-10.0.26120-SP0",
+    "python": "3.8.18",
+    "heartbeatAt": "2025-04-22T14:35:58.749308",
+    "startedAt": "2025-04-22T14:35:56.766548",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "d:/1_Documents/Nam_2_HK2/Deep_Learning/Week3/week3.py",
+    "codePathLocal": "Week3\\week3.py",
+    "codePath": "Week3\\week3.py",
+    "git": {
+        "remote": "https://github.com/TN-Thien/deep_learning_course.git",
+        "commit": "f6448253d88ee5878019a9ec7bca4d5fc0ae81ec"
+    },
+    "email": "TN-Thien@users.noreply.github.com",
+    "root": "D:/1_Documents/Nam_2_HK2/Deep_Learning",
+    "host": "DESKTOP-Aspire",
+    "username": "Acer",
+    "executable": "C:\\Users\\Acer\\anaconda3\\envs\\AI\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2100.0,
+        "min": 0.0,
+        "max": 2100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2100.0,
+            "min": 0.0,
+            "max": 2100.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 180.45214462280273,
+            "used": 60.02777099609375
+        }
+    },
+    "gpu": "NVIDIA GeForce GTX 1650",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce GTX 1650",
+            "memory_total": 4294967296
+        }
+    ],
+    "memory": {
+        "total": 23.338436126708984
+    }
+}
