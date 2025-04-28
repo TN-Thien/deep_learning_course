@@ -1,0 +1,18 @@
+{
+  "label2id": {
+    "Chinh_tri": 0,
+    "Cong_nghe": 1,
+    "Giai_tri": 2,
+    "Giao_duc": 3,
+    "Kinh_doanh": 4,
+    "The_thao": 5
+  },
+  "id2label": {
+    "0": "Chinh_tri",
+    "1": "Cong_nghe",
+    "2": "Giai_tri",
+    "3": "Giao_duc",
+    "4": "Kinh_doanh",
+    "5": "The_thao"
+  }
+}
